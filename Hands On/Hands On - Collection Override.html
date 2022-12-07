@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE Edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleeaps.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Compiled and minifield CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--css override-->
+    <link rel="sytlesheet" href="colstyle.css">
+
+    <title>Collection Override</title>
+</head>
+<body class="purple darken-3 yellow-text text-accent-4">
+    <div class="container">
+        <h3>Collection</h3>
+        <ul class="collection">
+            <li class="collection-item">Cris</li>
+            <li class="collection-item">Cris</li>
+            <li class="collection-item">Cris</li>
+            <li class="collection-item">Cris</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h3>Collections w/ Anchors</h3>
+        <div class="collection">
+            <a href="" class="collection-item">Cris</a>
+            <a href="" class="collection-item">Cris</a>
+            <a href="" class="collection-item">Cris</a>
+            <a href="" class="collection-item">Cris</a>
+        </div>
+    </div>
+    <!--Fix Action Button-->
+        <div class="fixed-action-btn">
+            <a href="" class="btn btn.floating btn-floating btn-large blue">
+                <i class="Material-Icons"></i>
+            </a>
+            <ul>
+                <li><a href="" class="btn-floating orange"><i class="material-icons">insert_chart</i></a></li>
+                <li><a href="" class="btn-floating orange"><i class="material-icons">animation</i></a></li>
+                <li><a href="" class="btn-floating orange"><i class="material-icons">publish</i></a></li>
+                <li><a href="" class="btn-floating orange"><i class="material-icons">ballot</i></a></li>
+            </ul>
+        </div>
+    <!--jquery cdn for floating action button-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" 
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" 
+    crossorigin="anonymous"></script>
+    <!--Compiled and minified Javascript-->
+    <script>
+        $(document).ready(function(){
+        $('.fixed-action-btn').floatingActingButton();
+        });
+    </script>
+</body>
+</html>

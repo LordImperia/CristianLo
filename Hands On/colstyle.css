@@ -1,0 +1,11 @@
+.collection{
+    margin: 0.5rem 0 1rem 0;
+    border: 5px solid #5943dd;
+    border-radius: 20px;
+    overflow:  hidden;
+    position:  relative;
+    padding: 1%;
+}
+body {
+    background-color: aqua;
+}
